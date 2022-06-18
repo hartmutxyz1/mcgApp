@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="col-lg-12" >
+    <h1 >Adresse</h1>
+    <form action="/s/userInpPro" method="get">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" name="name"   value="<?=$v['$name'];?>" >
+      </div>
+      <div class="form-group">
+        <label for="vorname">Vorname</label>
+        <input type="text" class="form-control" id="vorname" name="vorname"  value="<?=$v['$vorname'];?>" >
+      </div>
+      <div class="form-group">
+        <label for="email">E-Mail</label>
+        <input type="text" class="form-control" id="email" name="email"  value="<?=$v['$email'];?>" >
+      </div>
+      <div class="form-group">
+        <label for="pw">Passwort</label>
+        <input type="text" class="form-control" id="pw" name="pw"  value="<?=$v['$pw'];?>" >
+      </div>
+      <div class="form-group">
+        <label for="ort">Ort</label>
+        <input type="text" class="form-control" id="ort" name="ort"  value="<?=$v['$ort'];?>" >
+      </div>
+      <div class="form-group">
+        <label for="age">Alter</label>
+        <input type="text" class="form-control" id="age" name="age" value="<?=$v['$age'];?>" >
+      </div>
+        <input type="hidden"  id="id" name="id" value="<?=$v['$id'];?>" >
+      <button type="submit" class="btn btn-primary btn-block" name="save" value="save">speichern</button>
+    </form>
+  </div>

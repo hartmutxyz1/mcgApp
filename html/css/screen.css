@@ -1,0 +1,8 @@
+#seite{box-shadow: 0 3px 12px rgb(0 0 0/0.2);
+		border-radius: 10px;}
+#fuss>p{font-size: 10px;
+		text-align: right;}
+#fuss>hr{margin-bottom: 2px;}
+#meldung hr{margin-top: 2px;}
+.usermame{margin: auto 0px;}
+#logout{font-size: 10px;}
